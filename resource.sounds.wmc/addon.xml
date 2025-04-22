@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.kodi" version="1.0.1" name="Windows Media Center Sound Pack" provider-name="Adam3402">
+  <requires>
+    <import addon="kodi.resource" version="1.0.1"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Windows Media Center Vista Sound Pack</summary>
+    <description lang="en">Replaces default GUI sounds with nostalgic Windows Media Center effects from Vista.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
